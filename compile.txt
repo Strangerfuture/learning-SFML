@@ -1,0 +1,1 @@
+g++ {Source}.cpp -Isrc -std=c++17 -o {output} -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
