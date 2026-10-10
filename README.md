@@ -37,7 +37,6 @@ learning-SFML/
 └── README.md
 ```
 
-*The repository also contains a `flappybird` file, which appears to be a compiled executable.*
 
 ## Getting Started
 
@@ -67,13 +66,10 @@ Check `compile.txt` or the `Makefile` for the project's specific compilation com
 A typical SFML 2.x compilation command is:
 
 ```bash
-g++ sfml.cpp -o sfml -lsfml-graphics -lsfml-window -lsfml-system
-./sfml
+g++ file_name.cpp -o executable_name -lsfml-graphics -lsfml-window -lsfml-system
+./executable_name
 ```
 
-For a different source file, replace `sfml.cpp` with the appropriate filename.
-
-**Note:** Compilation flags may differ depending on your installed SFML version and source code.
 
 ## Purpose
 
